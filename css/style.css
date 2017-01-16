@@ -122,3 +122,8 @@ h4 {
     height: 380px;
     margin-right: 10px;
 }
+.bio {
+    max-height: 200px;
+    width: auto;
+    overflow: scroll;
+}
