@@ -12,9 +12,8 @@ a:hover {
 }
 
 .navi {
-    text-align: right;
-    padding-right: 5%;
-    flex: 1;
+    padding-top: 14px;
+    padding-right: 15px;
 }  
 
 .wrapper {
@@ -24,7 +23,11 @@ a:hover {
     margin-right: 220px;
     margin-bottom: 20px;
     max-width: 1000px;
-}      
+}     
+
+.willbehidden {
+    visibility: hidden;
+}
 
 .navi2 {
     font-size: 20px;
@@ -32,7 +35,7 @@ a:hover {
     margin-right: 10px;
     color: ghostwhite;
     text-decoration: none;
-}  
+}
 
 .navi2:hover {
     color: skyblue;
@@ -51,14 +54,6 @@ a:hover {
     margin-right: 10px;
 }  
 
-.navi1 {
-    font-size: 28px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 10px;
-    color: ghostwhite;
-}  
-
 .header {
     display: flex;
     background-color: #4C464D;
@@ -66,20 +61,29 @@ a:hover {
 }      
 
 .titilename {
+    flex: 1;
     margin-top: 2px;
     padding-left: 3%;
-    color: ghostwhite;
 }    
 
 img.resize {
     width: 440px;
     height: auto;
+}  
+
+img.withmax {
+    max-height: 200px;
+    width: auto;
 }     
 
 .wraper2 {
     display: flex;
     justify-content: space-around;
 }  
+
+h2.newstitle {
+    margin-left: 40px;
+} 
 
 .inside {
     margin-left: 10px;
