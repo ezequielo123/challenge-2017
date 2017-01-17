@@ -67,13 +67,8 @@ a:hover {
 }    
 
 img.resize {
-    width: 440px;
-    height: auto;
-}  
-
-img.withmax {
-    max-height: 200px;
-    width: auto;
+    width: 400px;
+    height: 500px;
 }     
 
 .wraper2 {
@@ -94,6 +89,8 @@ h2.newstitle {
 .nextoit {
     float: left;
     margin-right: 15px;
+    width: 450px;
+    height: 722px;
 }
 
 li {
