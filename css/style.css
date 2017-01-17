@@ -52,6 +52,7 @@ a:hover {
 .news {
     margin-left: 10px;
     margin-right: 10px;
+    width: 100%;
 }  
 
 .header {
@@ -74,6 +75,9 @@ img.resize {
 .wraper2 {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
 }  
 
 h2.newstitle {
@@ -84,13 +88,16 @@ h2.newstitle {
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
+    width: 90%;
+    height: auto;
 }      
 
 .nextoit {
     float: left;
     margin-right: 15px;
-    width: 450px;
-    height: 722px;
+    width: 45%;
+    height: auto;
+
 }
 
 li {
@@ -115,12 +122,22 @@ h4 {
 }
 
 .poster {
-    width: 235px;
-    height: 380px;
+    width: 90%;
+    height: auto;
     margin-right: 10px;
 }
+
+.resize {
+    width: 90%;
+    height: auto;
+}
+
 .bio {
     max-height: 200px;
-    width: auto;
+    width: 52.5%;
     overflow: scroll;
+}
+
+.review {
+    width: 95%;
 }
